@@ -21,7 +21,7 @@ This activity is an opportunity to assess the space and time complexity of pre-w
   - What does this function do?
    - What is the 0() of the time complexity? Why?
   - What is the 0() of the space complexity? Why?
-  - Try adding similar counting code to that shown in sidewinder
+  - Try adding similar counting code to that shown in sidewinder.
 
 
 ## Step 4: Assess Most Common Entry
@@ -29,6 +29,7 @@ This activity is an opportunity to assess the space and time complexity of pre-w
   - What does this function do?
    - What is the 0() of the time complexity? Why?
   - What is the 0() of the space complexity? Why?
+  - Try adding similar counting code to that shown in sidewinder.
 
 ## Step 5: Refactoring Most Common Entry (Live Code)
 

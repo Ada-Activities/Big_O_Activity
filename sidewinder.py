@@ -1,3 +1,20 @@
+'''
+Sidewinder problem from While Loops Problem Set
+
+What does this function do?
+Takes a circuitous path through a list to find the "end".
+
+What is the O() of the time complexity? Why?
+O(n), assuming the lists aren't malformed (no loops or errors).
+To find the end requires at most visiting each position in the
+list, so even though the order of iteration is odd, it's
+still O(n)!
+
+What is the O() of the space complexity? Why?
+O(1), because there are only incidental temporary variables
+that don't depend on the size of the data.
+'''
+
 def sidewinder(number_list):
     # ops = 0  # UNCOMMENT FOR INPUT/OPS COUNTING
 
