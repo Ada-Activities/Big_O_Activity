@@ -37,26 +37,20 @@ space complexity. This is a common tradeoff we have to consider.
 '''
 
 def most_common_entry(numbers):
-    entry = numbers[0]
-    max_number_of_occurences = 1
+    # build a frequency map of the entries
+    counts = {}
+    for num in numbers:
+        count = counts.get(num, 0)
+        counts[num] = count + 1
 
-    current_index = 0
-    while current_index < len(numbers):
-        j = current_index + 1
-        current_entry = numbers[current_index]
+    entry = None
+    max_number_of_occurences = 0
 
-        current_count = 1
-        while j < len(numbers):
-            if numbers[j] == current_entry:
-                current_count += 1
-
-            j += 1
-
-        if current_count > max_number_of_occurences:
-            max_number_of_occurences = current_count
-            entry = numbers[current_index]
-
-        current_index += 1
+    # find the value with the max count
+    for num, count in counts.items():
+        if count > max_number_of_occurences:
+            entry = num
+            max_number_of_occurences = count
 
     return entry
 
