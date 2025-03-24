@@ -2,7 +2,7 @@
 This activity is an opportunity to assess the space and time complexity of pre-written code.
 
 ## Step 0: Fork and Clone this Repo
-- We are not including a requirements.txt so there is no need to activate a venv, but you may if you so choose.
+- The requirements.txt for this activity is empty, so it's not strictly required to set up a virtual environment, but feel free to do so.
 
 ## Step 1: Play around with the Code
 - Identify where the code starts running.
